@@ -8,6 +8,7 @@ namespace WishListTests
         [Fact(DisplayName = "Add MVC Middleware to ConfigureServices @add-mvc-middleware-to-configureservices")]
         public void AddMVCCallAdded()
         {
+            // I have not see this done before
             var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "WishList" + Path.DirectorySeparatorChar + "Startup.cs";
             string file;
             using (var streamReader = new StreamReader(filePath))
